@@ -1,0 +1,86 @@
+HTML-
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Apple</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Apple</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/support">Support</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Welcome to Apple</h1>
+        <p>Innovation that inspires everything we do.</p>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="container">
+        <h1>Latest News</h1>
+        <div class="news-item">
+          <h3>Introducing the new iPhone</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at nulla porttitor, rutrum velit vel, efficitur velit. Sed eget enim elementum, eleifend diam non, laoreet est.</p>
+          <a href="/news/iphone" class="btn">Read More</a>
+        </div>
+        <div class="news-item">
+          <h3>Apple announces new Macbook Pro</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at nulla porttitor, rutrum velit vel, efficitur velit. Sed eget enim elementum, eleifend diam non, laoreet est.</p>
+          <a href="/news/macbook-pro" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Apple, Copyright &copy; 2021</p>
+    </footer>
+  </body>
+</html>
+
+CSS-
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+#branding {
+  float: left;
+}
+
+#branding h1 {
+  margin: 0;
+}
